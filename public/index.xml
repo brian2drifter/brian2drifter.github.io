@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>First Hugo Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on First Hugo Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Dec 2025 13:32:03 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Thu, 11 Dec 2025 13:32:03 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;&#xA;&lt;p&gt;Testing &lt;strong&gt;bold text&lt;/strong&gt; and also &lt;em&gt;italics&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;2nd-level&#34;&gt;2nd level&lt;/h2&gt;&#xA;&lt;h3 id=&#34;3rd-level&#34;&gt;3rd level&lt;/h3&gt;</description>
+    </item>
+  </channel>
+</rss>
