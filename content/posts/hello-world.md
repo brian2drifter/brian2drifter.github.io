@@ -1,6 +1,6 @@
 +++
 date = '2025-12-11T13:32:03Z'
-draft = true
+draft = false
 title = 'Hello World'
 +++
 
