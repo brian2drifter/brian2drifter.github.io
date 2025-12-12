@@ -1,4 +1,8 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'First Hugo Blog'
-theme = 'ananke'
+languageCode = 'en-gb'
+title = 'Snail Trails'
+theme = "PaperMod"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

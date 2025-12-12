@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>First Hugo Blog</title>
+    <title>Snail Trails</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on First Hugo Blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
+    <description>Recent content on Snail Trails</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-gb</language>
     <lastBuildDate>Thu, 11 Dec 2025 13:32:03 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
+      <title>A new Hugo blog</title>
+      <link>http://localhost:1313/posts/building_hugo/</link>
       <pubDate>Thu, 11 Dec 2025 13:32:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello World&lt;/h1&gt;&#xA;&lt;p&gt;Testing &lt;strong&gt;bold text&lt;/strong&gt; and also &lt;em&gt;italics&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;2nd-level&#34;&gt;2nd level&lt;/h2&gt;&#xA;&lt;h3 id=&#34;3rd-level&#34;&gt;3rd level&lt;/h3&gt;</description>
+      <guid>http://localhost:1313/posts/building_hugo/</guid>
+      <description>&lt;h1 id=&#34;my-start-with-hugo&#34;&gt;My start with Hugo&lt;/h1&gt;
+&lt;p&gt;It all started with this video (see the main post)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zrmeOu8DYyw&#34;&gt;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;https://img.youtube.com/vi/zrmeOu8DYyw/0.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Actually it started a week before I&amp;rsquo;d even thought of a Hugo blog, but that&amp;rsquo;s a long story best left for another post. Anyway the video was excellent but &amp;hellip; lots of pitfalls on the way.&lt;/p&gt;
+&lt;h3 id=&#34;hurdle-1-installing-hugo-on-linux&#34;&gt;Hurdle 1: Installing Hugo on Linux&lt;/h3&gt;
+&lt;p&gt;Surely it&amp;rsquo;s just &lt;code&gt;sudo apt install hugo&lt;/code&gt;?  Well that works if you want a pretty old version of Hugo, one sufficiently old not to support the Ananke theme, for instance. So download the latest .deb from the Hugo site and all is good perhaps. Well, no, actually! Hugo install the binary to &lt;code&gt;/usr/local/bin/hugo&lt;/code&gt; and whilst that was in my $PATH Hugo wouldn&amp;rsquo;t run, I assume Go was trying to find Hugo in &lt;code&gt;usr/bin/hugo&lt;/code&gt;. Anyway nothing a quick copy wouldn&amp;rsquo;t fix.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
