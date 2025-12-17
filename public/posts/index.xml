@@ -6,10 +6,18 @@
     <description>Recent content in Posts on Snail Trails</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 11 Dec 2025 13:32:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 22:50:20 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A new Hugo blog</title>
+      <title></title>
+      <link>http://localhost:1313/posts/new-note-from-android/</link>
+      <pubDate>Thu, 11 Dec 2025 22:50:20 +0000</pubDate>
+      <guid>http://localhost:1313/posts/new-note-from-android/</guid>
+      <description>&lt;h1 id=&#34;new-note-from-android&#34;&gt;New note from Android&lt;/h1&gt;
+&lt;p&gt;Now if this works I will be surprised&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo started</title>
       <link>http://localhost:1313/posts/building_hugo/</link>
       <pubDate>Thu, 11 Dec 2025 13:32:03 +0000</pubDate>
       <guid>http://localhost:1313/posts/building_hugo/</guid>

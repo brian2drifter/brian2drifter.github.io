@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>A new Hugo blog | Snail Trails</title>
+<title>Hugo started | Snail Trails</title>
 <meta name="keywords" content="">
 <meta name="description" content="My start with Hugo
 It all started with this video (see the main post)
@@ -115,7 +115,7 @@ Surely it&rsquo;s just sudo apt install hugo?  Well that works if you want a pre
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      A new Hugo blog
+      Hugo started
     </h1>
     <div class="post-meta"><span title='2025-12-11 13:32:03 +0000 UTC'>December 11, 2025</span>
 
@@ -136,7 +136,7 @@ Surely it&rsquo;s just sudo apt install hugo?  Well that works if you want a pre
 </span></span><span style="display:flex;"><span>pass init *mykey*
 </span></span><span style="display:flex;"><span>git config --global credential.credentialStore
 </span></span></code></pre></div><p>and, at last I could connect to github (after sharing my credentialStore passphrase)</p>
-<h3 id="hurdle-3">Hurdle 3<a hidden class="anchor" aria-hidden="true" href="#hurdle-3">#</a></h3>
+<h3 id="hurdle-3---getting-a-working-build--deploy-script">Hurdle 3 - Getting a working build &amp; deploy script<a hidden class="anchor" aria-hidden="true" href="#hurdle-3---getting-a-working-build--deploy-script">#</a></h3>
 <p>I thought it would be all plain sailing now, just copy the build &amp; deploy gist into Github and away we go. But there were a couple of outdated version settings in the script which caused it to fail. Fixing those and it was still failing. Since this is all a bit new I asked ChatGPT about the error and it decide a whole new gist was the answer</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">Deploy Hugo site to GitHub Pages</span>
 </span></span><span style="display:flex;"><span>

@@ -1,7 +1,7 @@
 +++
 date = '2025-12-11T13:32:03Z'
 draft = false
-title = 'A new Hugo blog'
+title = 'Hugo started'
 +++
 
 # My start with Hugo
@@ -30,7 +30,7 @@ git config --global credential.credentialStore
 
 and, at last I could connect to github (after sharing my credentialStore passphrase)
 
-### Hurdle 3
+### Hurdle 3 - Getting a working build & deploy script
 I thought it would be all plain sailing now, just copy the build & deploy gist into Github and away we go. But there were a couple of outdated version settings in the script which caused it to fail. Fixing those and it was still failing. Since this is all a bit new I asked ChatGPT about the error and it decide a whole new gist was the answer
 
 ``` yaml

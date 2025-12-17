@@ -1,0 +1,31 @@
+---
+title: "Long Week"
+date: 2025-12-13T16:50:51
+seoTitle: "long_week"
+slug: "long_week"
+description: ""
+authors: ["Brian"]
+draft: true
+---
+
+
+# It's been a long week
+
+It all started with a power-cut; two actually, one for about 2 minutes and a shorter one 30 minutes later. My servers etc are all protected by a UPS of course but my main router is in another room so takes the hit - but, it's just a reboot right, nothing will get affected!
+
+Next day I wander down the pub and with headphones on and **tragedy** - no music access. I use Roon to curate my own CD collection and my Qobuz streaming service and Roon mobile (Roon ARC) relies on port-forwarding and that wasn't working! OK it wasn't a difficult fix when I got home (reboot router, delete and reinstate forwarding of the appropriate port) but it was a concern that this could be something  that could happen when I was away from home for a longer time. 
+
+### Enter Tailscale
+
+Roon supports Tailscale which provides private mesh connections (over Wireguard) to devices. So a simple workaround for the problem was to install Tailscale on both my Roon server (a NUC running at home) and my phone and now Roon ARC could use Tailscale/Wireguard to establish the secure connection. 
+
+That was easy!
+
+Trouble was Alex from Tailscale is the single best technical Youtube vlogger I've met and after reading up/watching the little I needed to set up the Roonserver-phone connection it made sense to extend Tailscale to more devices on my LAN so I can access any and everything securely and privately when away from home. 
+
+### Tailscale Everywhere
+
+
+
+
+
