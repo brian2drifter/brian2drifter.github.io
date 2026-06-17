@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-gb'
-title = 'Snail Trails'
-theme = "PaperMod"
+title = 'Snail Tech'
+theme = "ananke"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
