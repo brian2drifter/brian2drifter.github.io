@@ -1,7 +1,6 @@
 ---
 title: "My First Blog Post"
 date: 2026-06-17T09:00:00Z
-description: "A clean and minimal blog post description for search engine optimization."
 draft: false
 slug: "my-first-blog-post"
 categories:
