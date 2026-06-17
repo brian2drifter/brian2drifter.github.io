@@ -5,11 +5,8 @@ draft: false
 slug: "my-first-blog-post"
 categories:
   - "Tech"
-  - "Design"
 tags:
-  - "Hugo"
-  - "Paperwhite"
-  - "Minimalism"
+  - "Hugo"  
 ---
 
 
